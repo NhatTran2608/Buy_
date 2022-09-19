@@ -1,0 +1,65 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#main{
+    margin: auto;
+    margin-top: 51px;
+    text-align: center;
+    background-color: rgb(175, 204, 231);
+ 
+    width: 23%; 
+    border-radius: 5px;
+}
+
+
+
+.table_user table {
+    text-align: center;
+}
+
+.icon_user{
+    height: 30px;
+    width: 30px;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+.table_user table tr .td_user{
+    padding-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
