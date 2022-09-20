@@ -1,5 +1,3 @@
-
-
 * {
     padding: 0;
     margin: 0;
@@ -7,7 +5,6 @@
 }
 
 html {
-    background: url(JNG/nen.png);
     scroll-behavior: smooth;
     /* return: TOP */
     background-color: rgba(244, 244, 244);
@@ -73,7 +70,7 @@ html {
 
 }
 
-.nav li .subnav{
+.nav li .subnav {
     position: absolute;
     width: 200px;
     display: none;
@@ -81,7 +78,7 @@ html {
 
 .nav li .subnav :hover {
     background-color: rgb(83, 81, 81);
-    
+
 }
 
 
@@ -105,9 +102,10 @@ html {
 }
 
 #slider {
+    margin-top: 5px;
     text-align: center;
     padding-top: 50px;
-    background-color: #fff;
+
 
 }
 
@@ -133,8 +131,6 @@ html {
     background-image: linear-gradient(120deg, #f3ad3d 0%, #f25c5c 50%, #ff9c00 100%);
     border-radius: 20px;
 
-
-
 }
 
 
@@ -155,12 +151,11 @@ html {
     text-shadow: 2px 1px 2px rgb(220, 58, 58);
     font-weight: 500;
 
-
 }
 
 #apple,
 #menu {
-    border: 2px  solid #f25c5c ;
+    border: 2px solid #f25c5c;
     border-radius: 22px;
     display: grid;
     margin-top: 20px;
@@ -281,8 +276,8 @@ html {
     bottom: 0;
 }
 
-.top{
-    
+.top {
+
     color: blue;
     background-color: red;
     border-radius: 3px;
@@ -292,7 +287,7 @@ html {
 /* chia cột responsive*/
 #footer_form {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     padding: 12px;
 }
 
@@ -342,17 +337,12 @@ html {
     user-select: none;
 }
 
-
 .next {
     right: 0;
     border-radius: 3px 0 0 3px;
 }
 
-
 .prev:hover,
 .next:hover {
     background-color: rgba(0, 0, 0, 0.8);
 }
-
-
-

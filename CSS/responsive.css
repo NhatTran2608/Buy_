@@ -67,6 +67,16 @@
     color: #000;
     font-size: 1.2rem;
 }
+.search_nav{
+    display: none;
+}
+
+#search_1{
+
+    size:20;
+    font-size: 30px;
+    margin-top: -100px;
+}
 
 @media (max-width: 1023px) {
     .bars_nav {
@@ -90,21 +100,38 @@
     .slideshow{
         width: 100%;
     }
+
+    .search_nav{
+        display: block;
+        text-align: center;
+        margin: auto;
+        color: green;
+    }
+    #header{
+        height: 60px;
+    }
+
+
 }
-
 /*Ipad dọc(768 x 1024)*/
-@media screen and (min-width: 768px){
-
+@media only screen and (min-width: 740px) and (max-width:1023px) {
+    #search_1{
+        border-radius: 10px;
+    }
     
 
 }
 
 /*Iphone(480 x 640)*/
-@media screen and (min-width: 320px){
+@media only screen and (max-width: 739px){
+    #search_1{
+        size:10px;
+        font-size: 8px;
+        margin-top: -150px;
+    }
+    
 
 }
-
-
 
 @keyframes Pw {
     from {
