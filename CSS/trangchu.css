@@ -108,8 +108,6 @@ html {
     margin-top: 5px;
     text-align: center;
     padding-top: 50px;
-
-
 }
 
 .title_menu {
@@ -194,6 +192,7 @@ html {
     width: 150px;
     height: 100px;
     cursor: pointer;
+    margin: 25px auto;
 }
 
 
@@ -204,10 +203,6 @@ html {
     margin: 25px auto;
 }
 
-.anhdt:hover{
-    transition-duration: 0.2s;
-    margin: 10px 0px;
-}
 
 #table_phone,
 #table_menu {
