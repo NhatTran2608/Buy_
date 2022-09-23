@@ -13,6 +13,9 @@ html {
 }
 
 #header {
+    
+    display: grid;
+    justify-items: center;
     --height: 50px;
     background-color: gold;
     height: var(--height);
@@ -193,10 +196,17 @@ html {
     cursor: pointer;
 }
 
+
 .anhdt {
     width: 150px;
     height: 150px;
     cursor: pointer;
+    margin: 25px auto;
+}
+
+.anhdt:hover{
+    transition-duration: 0.2s;
+    margin: 10px 0px;
 }
 
 #table_phone,
@@ -249,8 +259,6 @@ html {
 .dt1 :hover {
     color: blue;
 }
-
-
 
 .dt1 :active {
     color: red;
