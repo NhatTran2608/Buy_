@@ -12,6 +12,33 @@ html {
     margin: 0px 24px 24px 24px;
 }
 
+.logo_CH{
+    width: 120px; 
+    height: 48px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    vertical-align: middle;
+    animation: example 5s infinite ease-in-out;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: example;
+}
+@keyframes example{
+35%, 100% {
+    transform: scale(1);
+}
+10% {
+    transform: rotateX(360deg) scale(1.15);
+}
+}
+
+
 #header {
 
     display: grid;
