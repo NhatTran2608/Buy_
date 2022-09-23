@@ -1,7 +1,7 @@
 #main_contact{
     --width_main: 70%;
     margin: auto;
-    margin-top: 51px;
+    margin-top: 102px;
     text-align: center;
     background-color: rgb(175, 204, 231);
     width: var(--width_main); 

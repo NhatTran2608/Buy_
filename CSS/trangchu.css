@@ -13,11 +13,14 @@ html {
 }
 
 .logo_CH{
-    width: 120px; 
-    height: 48px;
+    margin-top: 25px ; 
+    display: inline-block;
+    width: 122px; 
+    height: 50px;
     position: absolute;
     top: 0;
     left: 0;
+    line-height: 100px;
     vertical-align: middle;
     animation: example 5s infinite ease-in-out;
     animation-duration: 5s;
@@ -43,7 +46,7 @@ html {
 
     display: grid;
     justify-items: center;
-    --height: 50px;
+    --height: 100px;
     background-color: gold;
     height: var(--height);
     position: fixed;
@@ -60,7 +63,7 @@ html {
     text-align: center;
     position: relative;
     text-transform: uppercase;
-    line-height: var(--height);
+    line-height: calc(var(--height)/2) ;
     position: absolute;
     justify-content: space-between;
 }
@@ -375,4 +378,12 @@ html {
 .prev:hover,
 .next:hover {
     background-color: rgba(0, 0, 0, 0.8);
+}
+
+.edit_search{
+    position: absolute;
+    right: 0;
+    font-size: 0.875rem;
+    height: 36px;
+    line-height: 36px;
 }

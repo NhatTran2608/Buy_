@@ -17,12 +17,13 @@
 
 <body>
     <div id="header">
-        <label for="nav_bars_display" class="bars_nav"> <i  class="fa-solid fa-bars"></i></label>
+        <label for="nav_bars_display" class="bars_nav"> <i id="iconbars" class="fa-solid fa-bars"></i></label>
         <img class="logo_CH" src="CSS/JNG/logo_CH.jpg" alt=""> 
         <ul class="nav">
-
+                
             <li><a href="Index.html"><i class="fas fa-home"></i> Trang Chủ</a></li>
-            <li><a href=""><i class="fab fa-shopify"></i> Đơn hàng <i class="fa-solid fa-caret-down"></i></a>
+            <li class="li_list"><a href=""><i class="fab fa-shopify"></i> Đơn hàng <i
+                        class="fa-solid fa-caret-down"></i></a>
                 <ul class="subnav">
                     <li><a href="">Đơn mua</a></li>
                     <li><a href="">Đơn bán</a></li>
@@ -32,10 +33,14 @@
                 <a id="lienhe" href="contact.html"><i class="fa-solid fa-headphones-simple"></i> Liên hệ</a>
             </li>
             <li><a href=""><i class="fa-solid fa-bell"></i>Thông báo</a></li>
-            <li> <label for="search"> Tìm kiếm </label> <input id="search" type="search" size="15">
-                <i id="iconsearch" class="fa-solid fa-magnifying-glass"></i>
-            </li>
             <li><a href="user.html"><i class="fa-regular fa-circle-user"></i> Đăng nhập</a></li>
+            <div class="edit_search" >
+                <li> <label for="search"> Tìm kiếm </label> <input id="search" type="search" size="30" placeholder="Tìm kiếm sản phẩm...">
+                    <i id="iconsearch" class="fa-solid fa-magnifying-glass"></i>
+                </li>
+            </div>
+
+            
         </ul>
 
         <input type="checkbox" name="" class="nav_bars_input" id="nav_bars_display">
@@ -53,9 +58,9 @@
             <li class="nav_list"><a href="register.html"><i class="fa-solid fa-user-pen"></i> Đăng ký</a></li>
         </ul>
         <div class="search_nav">
-                <label for="search_1">Tìm kiếm</label> <input id="search_1" type="search">
-                <i id="iconsearch" class="fa-solid fa-magnifying-glass"></i>
-            </div>
+            <label class="dp_search" for="search_1">Tìm kiếm</label> <input id="search_1" type="search" placeholder="Tìm kiếm sản phẩm...">
+            <i id="iconsearch" class="fa-solid fa-magnifying-glass"></i>
+        </div>
     </div>
     <div id="main">
         <div class="table_user">
