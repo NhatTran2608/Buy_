@@ -9,12 +9,12 @@ function sumit_user() {
         
 
     }
-    if (x == 'admin' && y == '123') {
+    if (x == '0915217024' && y == '123') {
         alert('Đăng nhập thành công');
         window.location.href = 'Index.html';
 
     }
-    else if (((x != 'admin') && (x != '')) || ((y != '123') && (y != ''))) {
+    else if (((x != '0915217024') && (x != '')) || ((y != '123') && (y != ''))) {
         alert('Tài khoản hoặc mật khẩu không đúng');
         reset_form();
     }

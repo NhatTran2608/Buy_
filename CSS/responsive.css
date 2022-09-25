@@ -149,6 +149,16 @@
     .dp_search{
         display: none;
     }
+    
+    #main_usr{
+        margin: auto;
+        margin-top: 51px;
+        text-align: center;
+        background-color: rgb(175, 204, 231);
+        width: 50%; 
+        border-radius: 5px;
+    }
+    
 
 }
 
@@ -266,6 +276,15 @@
     .footer_logo {
         width: 80px;
         height: 40px;
+    }
+
+    #main_usr{
+        margin: auto;
+        margin-top: 51px;
+        text-align: center;
+        background-color: rgb(175, 204, 231);
+        width: 100%; 
+        border-radius: 5px;
     }
 
 }
