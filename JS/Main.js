@@ -32,7 +32,7 @@ function reset_form() {
 function contact_sumit() {
     var x = document.getElementById('number_phone').value;
     var y = document.getElementById('email').value;
-    var z = document.getElementById('ndung').value;
+    var z = document.getElementsByName('ndung').value;
     if (x == '' || y == '' || z == '') {
         alert('Vui lòng nhập đủ thông tin');
     }

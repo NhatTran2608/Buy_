@@ -81,6 +81,10 @@
     display: none;
 }
 
+.ndung_rps{
+    display: none;
+}
+
 /*Ipad dọc(768 x 1024)*/
 @media only screen and (min-width: 740px) and (max-width:1023px) {
     .search_nav{
@@ -159,6 +163,17 @@
         border-radius: 5px;
     }
     
+    .ndung_rps{
+        display: block;
+    }
+
+    .ndung{
+        display: none;
+    }
+
+    .text_contact{
+        font-size: 1.1em;
+    }
 
 }
 
@@ -294,7 +309,23 @@
     .download_UD{
         width: 85px;
     }
+
+    .table_body {
+        text-align: left;
+        margin: auto;
+    }
+
+    .ndung{
+        display: none;
+    }
+
+    .ndung_rps{
+        display: block;
+    }
     
+    .text_contact{
+        font-size: 1em;
+    }
 
 }
 
