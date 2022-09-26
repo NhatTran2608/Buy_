@@ -252,8 +252,8 @@
     }
 
     #footer_form {
-        display: flex;
-        flex-direction: column-reverse;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
         font-size: 10px;
     }
 
@@ -280,12 +280,21 @@
 
     #main_usr{
         margin: auto;
-        margin-top: 51px;
         text-align: center;
         background-color: rgb(175, 204, 231);
         width: 100%; 
         border-radius: 5px;
     }
+
+    .download_UD_QR{
+        width: 85px;
+        height: 85px;
+    }
+    
+    .download_UD{
+        width: 85px;
+    }
+    
 
 }
 

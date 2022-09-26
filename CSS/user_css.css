@@ -1,8 +1,4 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
+
 
 #main_usr{
     margin: auto;
@@ -13,6 +9,14 @@
     border-radius: 5px;
 }
 
+.download_UD_QR{
+    width: 100px;
+    height: 100px;
+}
+
+.download_UD{
+    width: 100px;
+}
 
 
 .table_user table {
@@ -22,7 +26,7 @@
 }
 
 .icon_user{
-    height: 30px;
+    height: 35px;
     width: 30px;
     padding-top: 5px;
     cursor: pointer;
