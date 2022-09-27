@@ -385,3 +385,44 @@ html {
     height: 36px;
     line-height: 36px;
 }
+
+.themvaogio {
+    z-index: 20;
+    border: 1px solid #e3e7eb;
+    border-radius: 116%;
+    width: 1.5em;
+    height: 1.5em;
+    font-size: 1.5em;
+    color: rgb(163, 161, 161);
+    background: none;
+    transition-duration: .2s;
+    cursor: pointer;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 140px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 21;
+    bottom: 150%;
+    left: 50%;
+    margin-left: -75px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.money{
+    color: #e10c00;
+    font-size: 15px;
+}
+
+.tooltip{
+    margin:5px 0px;
+    display: inline-block;
+    
+}
