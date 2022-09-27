@@ -4,21 +4,20 @@
 function sumit_user() {
     var y = document.getElementById('user_pass').value;
     var x = document.getElementById('user_tkhoan').value;
-    if (x == '' || y == '') {
-        alert('Vui lòng nhập đủ thông tin');
-        
-
+    if (x == '') {
+        alert('Vui lòng nhập tài khoản');
+    }
+    if(y == ''){
+        alert('Vui lòng nhập mật khẩu');
     }
     if (x == '0915217024' && y == '123') {
         alert('Đăng nhập thành công');
         window.location.href = 'Index.html';
-
     }
     else if (((x != '0915217024') && (x != '')) || ((y != '123') && (y != ''))) {
         alert('Tài khoản hoặc mật khẩu không đúng');
         reset_form();
     }
-
 }
 
 function cshk_function() {
@@ -62,4 +61,5 @@ function topFunction() {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
 }
+
 
