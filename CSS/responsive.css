@@ -27,7 +27,7 @@
     left: 0;
     bottom: 0;
     background-color: #fff;
-    width: 300px;
+    width: 700px;
     max-width: 100%;
     transform: translateX(-100%);
     transition: transform linear 0.3s;
